@@ -18,8 +18,8 @@ const App = () => {
 
   return (
     <>
-      <Navbar />
     <Router>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/product/:id" element={<ProductDetail />} />
